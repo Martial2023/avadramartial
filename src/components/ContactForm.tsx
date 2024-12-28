@@ -40,7 +40,7 @@ const ContactForm = () => {
     return (
         <div id='contact' className='w-full'>
             <div>
-                {status !== null && (
+                {/* {status !== null && (
                     <dialog
                         id="email_msg"
                         className="modal text-gray-900 bg-gray-50 shadow-lg rounded-lg overflow-hidden animate-fade-in"
@@ -64,7 +64,8 @@ const ContactForm = () => {
                             <p className="text-center text-lg font-semibold mb-6">
                                 {status
                                     ? "✅ Votre message a été envoyé avec succès. Nous vous répondrons sous peu."
-                                    : "❌ Message non envoyé. Veuillez réessayer."}
+                                    : "❌ Message non envoyé. Veuillez réessayer."
+                                }
                             </p>
                             <div className="w-full flex justify-center">
                                 <form method="dialog">
@@ -78,7 +79,7 @@ const ContactForm = () => {
                         </div>
                     </dialog>
 
-                )}
+                )} */}
                 <dialog id="email_msg" className="modal text-gray-900">
                     <div className="modal-box">
                         <div className="w-full flex items-center justify-center">
