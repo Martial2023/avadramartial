@@ -18,11 +18,11 @@ const Home = () => {
             <div className="flex flex-col">
                 <h1 className="text-5xl md:text-6xl font-bold text-center md:text-left mt-4 md:mt-0">
                     {greeting},
-                    Je suis <br /><span className="text-accent">Martial Hilarion AVADRA</span>
+                    Je suis <br /><span className="text-info">Martial Hilarion AVADRA</span>
                 </h1>
 
                 <p className="my-4 text-md text-center md:text-left">
-                    Développeur passionné par la création de solutions <br/> modernes et efficaces.
+                    Développeur passionné par la création de solutions <br /> modernes et efficaces.
                     Mon expertise couvre le développement web, <br />l'IA et les solutions innovantes pour le monde numérique.
                 </p>
 
@@ -34,12 +34,12 @@ const Home = () => {
                 </a>
             </div>
 
-            <div className="md:ml-20 lg:ml-60 shadow-xl">
-                <img
-                    src="/eeia1.jpg"
-                    alt="Portrait Martial Hilarion Avadra"
-                    className="object-cover animate-border-radius border-4 border-accent w-96 h-96 shadow-xl"
-                />
+            <div className="avatar lg:w-1/3 h-full md:ml-8 lg:ml-12">
+                <div className="mask mask-hexagon">
+                    <img
+                        src="/eeia1.jpg"
+                    />
+                </div>
             </div>
         </div>
     )

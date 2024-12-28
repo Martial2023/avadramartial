@@ -124,7 +124,7 @@ const Projects = () => {
                             </div>
                             <div className="flex gap-3">
                                 <button className="btn btn-accent w-2/3 " onClick={() => (document.getElementById(`my_modal_${projet.id}`) as HTMLDialogElement).showModal()}>
-                                    Demo
+                                    Images({ projet.demoImg.length })
                                     <Images className="w-4" />
                                 </button>
                                 <a href={projet.demoLink} className="btn btn-neutral w-1/3">
