@@ -26,7 +26,7 @@ const Home = () => {
                     Mon expertise couvre le développement web, <br />l'IA et les solutions innovantes pour le monde numérique.
                 </p>
 
-                <div className="flex items-center gap-2">
+                <div className="flex justify-center md:justify-start items-center gap-2">
                     <a href="#contact"
                         className="btn btn-xl btn-accent md:w-fit flex items-center gap-2 px-4 py-2 rounded-md"
                     >
