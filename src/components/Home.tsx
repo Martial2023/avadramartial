@@ -1,7 +1,7 @@
 "use client"
 
 import { useEffect, useState } from "react";
-import { Mail } from "lucide-react"
+import { AtSign, Github, Linkedin, Mail } from "lucide-react"
 
 const Home = () => {
     const [greeting, setGreeting] = useState("Bonjour");
@@ -26,12 +26,31 @@ const Home = () => {
                     Mon expertise couvre le développement web, <br />l'IA et les solutions innovantes pour le monde numérique.
                 </p>
 
-                <a href="#contact"
-                    className="btn btn-accent md:w-fit flex items-center gap-2 px-4 py-2 rounded-md"
-                >
-                    <Mail className="w-5 h-5" />
-                    Contactez-moi
-                </a>
+                <div className="flex items-center gap-2">
+                    <a href="#contact"
+                        className="btn btn-xl btn-accent md:w-fit flex items-center gap-2 px-4 py-2 rounded-md"
+                    >
+                        <Mail className="w-5 h-5" />
+                        Contactez-moi
+                    </a>
+                    <a
+                        href="https://github.com/Martial2023"
+                        className="text-xl hover:text-accent">
+                        <Github />
+                    </a>
+                    <a
+                        href="https://www.linkedin.com/in/martial-hilarion-avadra-4680bb321?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                        className="text-xl hover:text-accent"
+                    >
+                        <Linkedin />
+                    </a>
+                    <a
+                        href="mailto:martial@gmail.com"
+                        className="text-xl hover:text-accent"
+                    >
+                        <AtSign />
+                    </a>
+                </div>
             </div>
 
             <div className="avatar lg:w-1/3 h-full md:ml-8 lg:ml-12">

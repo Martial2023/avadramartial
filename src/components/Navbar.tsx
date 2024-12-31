@@ -5,7 +5,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between">
             <a href="" className="flex items-center gap-1 text-2xl font-bold">
                 <CodeXml />
-                Martial<span className="text-accent">DEV</span>
+                Martial<span className="text-accent">.</span>
             </a>
 
             <nav className="hidden md:flex items-center gap-3">
