@@ -53,7 +53,7 @@ const MyExperiences = () => {
                     </p>
                     
                     <p className="p-6 border-l-4 border-accent shadow-lg rounded-lg bg-base-100 text-lg font-medium transition-all duration-300 hover:shadow-xl hover:bg-base-300">
-                        Lauréat de la compétition <span className="text-primary">KYFAX AI Context</span> de développement d'une IA capable de jouer au jeu <span className="text-info">Sixteen Soldiers</span> en <span className="text-info">2024</span> et au jeu <span className="text-info">Puissance</span> en <span className="text-info">2024</span>
+                        Lauréat de la compétition <span className="text-primary">KYFAX AI Context</span> de développement d'une IA capable de jouer au jeu <span className="text-info">Sixteen Soldiers</span> en <span className="text-info">2024</span>
                         <ul className="font-normal list-disc ml-12 text-gray-300">
                             <li>
                                 Algorithme Minimax avec élagage Alpha-Bêta.
