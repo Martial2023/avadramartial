@@ -37,7 +37,7 @@ const MyExperiences = () => {
 
                 {/* Section des réalisations */}
                 <div className="space-y-6">
-                    <p className="p-6 border-l-4 border-accent shadow-lg rounded-lg bg-base-100 text-xl font-medium transition-all duration-300 hover:shadow-xl hover:bg-base-300">
+                    <p className="p-6 border-l-4 border-accent shadow-lg rounded-lg bg-base-100 text-lg font-medium transition-all duration-300 hover:shadow-xl hover:bg-base-300">
                         Premier meilleur participant à l'Ecole d'Eté sur l'Intelligence Artificielle édition <span className="text-info">2024</span>
                         <ul className="font-normal list-disc ml-12 text-gray-300">
                             <li>
@@ -52,8 +52,8 @@ const MyExperiences = () => {
                         </ul>
                     </p>
                     
-                    <p className="p-6 border-l-4 border-accent shadow-lg rounded-lg bg-base-100 text-xl font-medium transition-all duration-300 hover:shadow-xl hover:bg-base-300">
-                        Lauréat du championnat <span className="text-primary">KYFAX AI Context</span> de développement d'une IA capable de jouer au jeu <span className="text-info">Sixteen Soldiers</span> en <span className="text-info">2024</span>
+                    <p className="p-6 border-l-4 border-accent shadow-lg rounded-lg bg-base-100 text-lg font-medium transition-all duration-300 hover:shadow-xl hover:bg-base-300">
+                        Lauréat de la compétition <span className="text-primary">KYFAX AI Context</span> de développement d'une IA capable de jouer au jeu <span className="text-info">Sixteen Soldiers</span> en <span className="text-info">2024</span>
                         <ul className="font-normal list-disc ml-12 text-gray-300">
                             <li>
                                 Algorithme Minimax avec élagage Alpha-Bêta.
@@ -61,7 +61,7 @@ const MyExperiences = () => {
                         </ul>
                     </p>
 
-                    <p className="p-6 border-l-4 border-accent shadow-lg rounded-lg bg-base-100 text-xl font-medium transition-all duration-300 hover:shadow-xl hover:bg-base-300">
+                    <p className="p-6 border-l-4 border-accent shadow-lg rounded-lg bg-base-100 text-lg font-medium transition-all duration-300 hover:shadow-xl hover:bg-base-300">
                         Lauréat d'un championnat de développement d'une IA capable de jouer au jeu <span className="text-info">Puissance 4</span> en <span className="text-info">2023</span>
                         <ul className="font-normal list-disc ml-12 text-gray-300">
                             <li>
@@ -73,7 +73,7 @@ const MyExperiences = () => {
                         </ul>
                     </p>
 
-                    <p className="p-6 border-l-4 border-accent shadow-lg rounded-lg bg-base-100 text-xl font-medium transition-all duration-300 hover:shadow-xl hover:bg-base-300">
+                    <p className="p-6 border-l-4 border-accent shadow-lg rounded-lg bg-base-100 text-lg font-medium transition-all duration-300 hover:shadow-xl hover:bg-base-300">
                         Développeur sénior depuis <span className="text-info">2022</span>
                         <ul className="font-normal list-disc ml-12 text-gray-300">
                             <li>
@@ -91,7 +91,7 @@ const MyExperiences = () => {
                         </ul>
                     </p>
 
-                    <p className="p-6 border-l-4 border-accent shadow-lg rounded-lg bg-base-100 text-xl font-medium transition-all duration-300 hover:shadow-xl hover:bg-base-300">
+                    <p className="p-6 border-l-4 border-accent shadow-lg rounded-lg bg-base-100 text-lg font-medium transition-all duration-300 hover:shadow-xl hover:bg-base-300">
                         Parle courrament:
                         <ul className="font-normal list-disc ml-12 text-gray-300">
                             <li>
