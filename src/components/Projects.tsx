@@ -36,7 +36,7 @@ const projects = [
         title: 'CommentsAnalysis',
         description: "Une application basée sur l'intelligence artificielle pour analyser et extraire des informations pertinentes des commentaires laissés sur des plateformes de commerce en ligne.",
         technologies: ['Python', 'Django', 'Scraping', 'Hugging Face', 'Next.js'],
-        demoLink: '#',
+        demoLink: 'https://comments-analyser.vercel.app/',
         repoLink: '#',
         image: "/projects/commentsanalysis.jpeg",
         demoImg: [

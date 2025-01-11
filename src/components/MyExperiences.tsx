@@ -3,7 +3,7 @@ import SkillLevel from "./SkillLevel"
 const MyExperiences = () => {
     return (
         <div id="skills" className="my-8">
-            <h2 className="text-4xl font-extrabold text-accent text-center md:text-left mb-6">Mes Expériences</h2>
+            <h2 className="text-4xl font-extrabold text-accent text-center mb-6">Mes Expériences</h2>
 
             <div className="flex flex-col-reverse lg:flex-row items-center justify-center gap-8">
                 {/* Section des compétences */}
@@ -48,6 +48,15 @@ const MyExperiences = () => {
                             </li>
                             <li>
                                 Robotique
+                            </li>
+                        </ul>
+                    </p>
+                    
+                    <p className="p-6 border-l-4 border-accent shadow-lg rounded-lg bg-base-100 text-xl font-medium transition-all duration-300 hover:shadow-xl hover:bg-base-300">
+                        Lauréat du championnat <span className="text-primary">KYFAX AI Context</span> de développement d'une IA capable de jouer au jeu <span className="text-info">Sixteen Soldiers</span> en <span className="text-info">2024</span>
+                        <ul className="font-normal list-disc ml-12 text-gray-300">
+                            <li>
+                                Algorithme Minimax avec élagage Alpha-Bêta.
                             </li>
                         </ul>
                     </p>
